@@ -1,0 +1,15 @@
+{
+  "name": "datasub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dst/classesTestTask.js",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^2.5.0",
+    "typescript": "^4.5.2"
+  }
+}
